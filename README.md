@@ -130,15 +130,15 @@ Then open [http://localhost:8501](http://localhost:8501).
 
 ## 📈 Project Evolution
 
-### Current Version (VitalSense)
-Built on top of the original open-source **[Hia](https://github.com/harshhh28/hia)** project by [Harsh Gajjar](https://github.com/harshhh28). This fork retains the original authentication, PDF analysis, and UI foundation, and extends it with:
+The project extends its initial foundation with several advanced capabilities focused on retrieval quality, security, reliability, and deployment:
+
 - Hybrid retrieval (BM25 + FAISS dense search via Reciprocal Rank Fusion)
 - Cross-encoder reranking for improved context relevance
-- A RAGAS-based evaluation harness with measured before/after retrieval quality
-- PII redaction and prompt injection guardrails, verified against both user-query and document-embedded injection attempts
-- A resilient multi-model fallback cascade (recovered from a real incident where the provider deprecated all previously configured models)
+- A RAGAS-based evaluation harness with measured retrieval quality improvements
+- PII redaction and prompt injection guardrails for safer health-report processing
+- A resilient multi-model fallback cascade for improved availability
 - Dockerized deployment with secure runtime secret injection
-- Rebranded UI (Navy/Teal theme) and streamlined repository
+- Deployed on Render for cloud-based application hosting
 
 ## 📝 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
