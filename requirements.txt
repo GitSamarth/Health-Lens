@@ -1,0 +1,19 @@
+streamlit>=1.42.0
+st-supabase-connection>=2.0.1
+groq>=0.18.0
+pdfplumber>=0.11.5
+filetype>=1.2.0
+gotrue
+langchain
+langchain-community
+# huggingface_hub>=0.35 fetches additional_chat_templates metadata on tokenizer load,
+# which returns 404 for embedding-only models (e.g. all-MiniLM-L6-v2). Pin to <0.35.
+huggingface_hub>=0.24.0,<0.35.0
+langchain-huggingface
+faiss-cpu
+sentence-transformers
+langchain-text-splitters
+rank_bm25
+ragas>=0.2.0
+datasets>=2.20.0
+pytest-cov

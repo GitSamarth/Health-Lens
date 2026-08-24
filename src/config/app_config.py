@@ -1,0 +1,14 @@
+APP_NAME = "VitalSense"
+APP_DESCRIPTION = "Your Personal Health Insights Agent"
+APP_ICON = "❖"
+APP_TAGLINE = "Discover a Healthier You with AI"
+
+# App settings
+MAX_UPLOAD_SIZE_MB = 20
+MAX_PDF_PAGES = 50
+SESSION_TIMEOUT_MINUTES = 30
+ANALYSIS_DAILY_LIMIT = 15
+
+# UI Settings
+PRIMARY_COLOR = "#10B981"
+SECONDARY_COLOR = "#0D9488"
